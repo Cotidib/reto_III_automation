@@ -1,0 +1,20 @@
+{
+  "name": "api-automation-tests",
+  "version": "1.0.0",
+  "description": "API automation tests for PokeAPI and SWAPI using Mocha",
+  "scripts": {
+    "test": "mocha 'test/**/*.test.js' --timeout 10000",
+    "test:pokeapi": "mocha 'test/pokeapi/**/*.test.js' --timeout 10000",
+    "test:swapi": "mocha 'test/swapi/**/*.test.js' --timeout 10000",
+    "test:integration": "mocha 'test/integration/**/*.test.js' --timeout 30000"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
