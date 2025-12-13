@@ -1,0 +1,20 @@
+# Python virtual environments
+pruebas_e2e/.venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Node modules
+pruebas_api/node_modules/
+
+# Package locks and system files
+pruebas_api/package-lock.json
+pruebas_api/.DS_Store
+
+# Logs
+pruebas_api/*.log

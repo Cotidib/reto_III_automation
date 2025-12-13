@@ -1,0 +1,10 @@
+Feature: Search in IMDb # features/search.feature:1
+
+  Scenario: Successful search                   # features/search.feature:3
+    Given I am on the IMDb home page            # features/steps/search_steps.py:6
+    When I enter 'Home Alone' on the search bar # features/steps/search_steps.py:14
+    When I click 'search' button                # features/steps/search_steps.py:19
+    When I click on 'Home Alone' movie          # features/steps/search_steps.py:24
+    Then the movie director is 'Chris Columbus' # features/steps/search_steps.py:29
+    Then rating is higher than '7.0'            # features/steps/search_steps.py:35
+
