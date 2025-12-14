@@ -18,3 +18,7 @@ pruebas_api/.DS_Store
 
 # Logs
 pruebas_api/*.log
+
+# Environment variables
+.env
+pruebas_performance/.env
